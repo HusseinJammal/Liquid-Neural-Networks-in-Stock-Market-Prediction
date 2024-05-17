@@ -68,16 +68,6 @@ Detailed feature engineering steps include the creation of:
 
 Utilization of LNN with configurations for different layers, including dropout and regularization to prevent overfitting.
 
-## Running the Models
-
-
-Scripts for training and evaluating the models are included in the repository. Use the following command to execute the model scripts:
-
-bash
-
-Copy code
-
-`python train_model.py`
 
 ## Evaluation
 
