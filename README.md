@@ -28,22 +28,23 @@ To run this project on your local machine, follow these steps:
 
 1.  Clone the repository to your local machine:
 
-    `git clone https://github.com/HusseinJammal/Liquid-Neural-Networks-in-Stock-Market-Prediction.git
-    cd /Liquid-Neural-Networks-in-Stock-Market-Prediction`
+    `git clone https://github.com/HusseinJammal/Liquid-Neural-Networks-in-Stock-Market-Prediction.git`
 
-2.  Navigate to the project directory:
+    `cd /Liquid-Neural-Networks-in-Stock-Market-Prediction`
+
+3.  Navigate to the project directory:
 
     `cd stocks`
 
-3.  Install necessary dependencies:
+4.  Install necessary dependencies:
 
     `npm i`
 
-4.  Start the application:
+5.  Start the application:
 
     `npm run start`
 
-5.  Run the Python application:
+6.  Run the Python application:
 
     `npm run app.py`
 
