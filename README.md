@@ -27,43 +27,27 @@ Features included are Open, High, Low, Close, Adjusted Close, and Volume. Techni
 To run this project on your local machine, follow these steps:
 
 1.  Clone the repository to your local machine:
-
-    bash
-
-    Copy code
-
+    Copy Code
     `git clone https://github.com/HusseinJammal/Liquid-Neural-Networks-in-Stock-Market-Prediction.git
     cd /Liquid-Neural-Networks-in-Stock-Market-Prediction`
 
 2.  Navigate to the project directory:
-
-    bash
-
     Copy code
 
     `cd stocks`
 
 3.  Install necessary dependencies:
-
-    bash
-
-    Copy code
+     Copy code
 
     `npm i`
 
 4.  Start the application:
-
-    bash
-
     Copy code
 
     `npm run start`
 
 5.  Run the Python application:
-
-    bash
-
-    Copy code
+     Copy code
 
     `npm run app.py`
 
