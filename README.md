@@ -86,8 +86,3 @@ Results from these metrics provide insights into the models' predictive accuracy
 
 
 Contributions to this project are welcome. Please fork the repository and submit pull requests with any enhancements or bug fixes.
-
-## License
-
-
-This project is licensed under the MIT License - see the [LICENSE](https://chatgpt.com/c/LICENSE.md) file for details.
