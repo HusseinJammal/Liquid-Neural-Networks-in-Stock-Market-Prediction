@@ -1,7 +1,7 @@
 
 # Stock Market Prediction Using Liquid Neural Networks
 
-This project focuses on predicting the stock prices of Tesla (TSLA) and Apple (AAPL) using advanced machine learning techniques, specifically Liquid Neural Networks (LNN) and Incremental Learning. The goal is to leverage historical stock data to forecast future prices with high accuracy.
+This project focuses on predicting the stock prices of Tesla (TSLA) and Apple (AAPL) using advanced machine learning techniques, specifically Liquid Neural Networks (LNN). The goal is to leverage historical stock data to forecast future prices with high accuracy.
 
 ## Project Structure
 
@@ -9,7 +9,7 @@ This project focuses on predicting the stock prices of Tesla (TSLA) and Apple (A
 -   **Data Collection**: Data is sourced from Yahoo Finance using the `yfinance` library, covering daily stock movements from specific start dates up to the present.
 -   **Exploratory Data Analysis (EDA)**: Includes candlestick plots with moving averages, correlation heatmaps, box plots, and histograms of daily price changes.
 -   **Feature Engineering**: Development of multiple technical indicators to enrich the model's input features.
--   **Model Architecture**: Utilization of Liquid Neural Networks and an Incremental Learning model to predict adjusted close prices.
+-   **Model Architecture**: Utilization of Liquid Neural Networks model to predict adjusted close prices.
 -   **Evaluation**: Assessment of model performance using metrics like MSE, RMSE, MAE, MAPE, and Directional Accuracy.
 
 ## Data
@@ -86,10 +86,6 @@ Detailed feature engineering steps include the creation of:
 ### Liquid Neural Networks
 
 Utilization of LNN with configurations for different layers, including dropout and regularization to prevent overfitting.
-
-### Incremental Learning
-
-Setup of a multilayer perceptron (MLP) with dense layers sized 256, 128, and 64, along with dropout layers to enhance model robustness.
 
 ## Running the Models
 
