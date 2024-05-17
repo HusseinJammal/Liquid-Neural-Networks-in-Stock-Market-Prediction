@@ -2,6 +2,7 @@
 # Stock Market Prediction Using Liquid Neural Networks
 
 This project focuses on predicting the stock prices of Tesla (TSLA) and Apple (AAPL) using advanced machine learning techniques, specifically Liquid Neural Networks (LNN). The goal is to leverage historical stock data to forecast future prices with high accuracy.
+![User Interface](https://github.com/HusseinJammal/Liquid-Neural-Networks-in-Stock-Market-Prediction/assets/82166319/a9cb59a3-a9cf-4ec0-bfb7-a0a974b5cdee)
 
 ## Project Structure
 
