@@ -1,11 +1,10 @@
 
 # Stock Market Prediction Using Liquid Neural Networks
-==========================================================
 
 This project focuses on predicting the stock prices of Tesla (TSLA) and Apple (AAPL) using advanced machine learning techniques, specifically Liquid Neural Networks (LNN) and Incremental Learning. The goal is to leverage historical stock data to forecast future prices with high accuracy.
 
 ## Project Structure
------------------
+
 
 -   **Data Collection**: Data is sourced from Yahoo Finance using the `yfinance` library, covering daily stock movements from specific start dates up to the present.
 -   **Exploratory Data Analysis (EDA)**: Includes candlestick plots with moving averages, correlation heatmaps, box plots, and histograms of daily price changes.
@@ -14,7 +13,7 @@ This project focuses on predicting the stock prices of Tesla (TSLA) and Apple (A
 -   **Evaluation**: Assessment of model performance using metrics like MSE, RMSE, MAE, MAPE, and Directional Accuracy.
 
 ## Data
-----
+
 
 The data for this project is retrieved from Yahoo Finance, focusing on the following stocks:
 
@@ -24,7 +23,6 @@ The data for this project is retrieved from Yahoo Finance, focusing on the follo
 Features included are Open, High, Low, Close, Adjusted Close, and Volume. Technical indicators such as MACD, RSI, Bollinger Bands, and others are calculated to enhance the dataset.
 
 ## Setup and Installation
-----------------------
 
 To run this project on your local machine, follow these steps:
 
@@ -72,7 +70,7 @@ To run this project on your local machine, follow these steps:
 Ensure you have Python and Node.js installed on your machine, along with necessary libraries such as `yfinance`, `numpy`, `pandas`, `sklearn`, and any specific libraries for LNN or deep learning frameworks you are using.
 
 ## Feature Engineering
--------------------
+
 
 Detailed feature engineering steps include the creation of:
 
@@ -83,7 +81,7 @@ Detailed feature engineering steps include the creation of:
 -   Fibonacci Retracement Levels
 
 ## Models
-------
+
 
 ### Liquid Neural Networks
 
@@ -94,7 +92,7 @@ Utilization of LNN with configurations for different layers, including dropout a
 Setup of a multilayer perceptron (MLP) with dense layers sized 256, 128, and 64, along with dropout layers to enhance model robustness.
 
 ## Running the Models
-------------------
+
 
 Scripts for training and evaluating the models are included in the repository. Use the following command to execute the model scripts:
 
@@ -105,7 +103,7 @@ Copy code
 `python train_model.py`
 
 ## Evaluation
-----------
+
 
 The models are evaluated using the following metrics:
 
@@ -118,11 +116,11 @@ The models are evaluated using the following metrics:
 Results from these metrics provide insights into the models' predictive accuracy and performance.
 
 ## Contributions
--------------
+
 
 Contributions to this project are welcome. Please fork the repository and submit pull requests with any enhancements or bug fixes.
 
 ## License
--------
+
 
 This project is licensed under the MIT License - see the [LICENSE](https://chatgpt.com/c/LICENSE.md) file for details.
